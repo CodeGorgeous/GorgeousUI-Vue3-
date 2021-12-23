@@ -1,0 +1,54 @@
+/* 公共颜色 */
+
+:root {
+    /* 字体色 */
+    --cg-color-white: #FFFFFF;
+    --cg-default-color: #DCDFE6;
+    --cg-primary-color: #B3D8FE;
+    --cg-success-color: #C2E7B0;
+    --cg-info-color: #D3D4D6;
+    --cg-warning-color: #F5DAB1;
+    --cg-danger-color: #F5C3C4;
+    /* hover字体色 */
+    --cg-hover-color: #FFFFFF;
+    --cg-hover-default-color: #409eff;
+    /* 背景色 */
+    --cg-default-background: #FFFFFF;
+    --cg-primary-background: #419EFE;
+    --cg-success-background: #67C23A;
+    --cg-info-background: #909399;
+    --cg-warning-background: #E6A23C;
+    --cg-danger-background: #EB696B;
+    /* hover背景色 */
+    --cg-hover-default-background: #c6e2ff;
+    --cg-hover-primary-background: #66b1ff;
+    --cg-hover-success-background: #85ce61;
+    --cg-hover-info-background: #a6a9ad;
+    --cg-hover-warning-background: #ebb563;
+    --cg-hover-danger-background: #f78989;
+}
+
+
+/* 公共样式 */
+
+* {
+    font-size: 12px;
+}
+
+
+/* Animation动画 */
+
+
+/* icon旋转动画 */
+
+@keyframes cg-icon-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
